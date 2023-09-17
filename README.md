@@ -34,7 +34,7 @@ Mobile Preview
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/social-proof-section-n1Tc76X3p)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/social-proof-section-n1Tc76X3p_)
 - Live Site URL: [Social Proof Section Layout](https://sdacleofe.github.io/social-proof-section-master-main/)
 
 ## My process
