@@ -34,8 +34,8 @@ Mobile Preview
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Social Proof Section Layout](https://sdacleofe.github.io/social-proof-section-master/)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/social-proof-section-9xTUtl6V9T)
+- Live Site URL: [Social Proof Section Layout](https://sdacleofe.github.io/social-proof-section-master-main/)
 
 ## My process
 
