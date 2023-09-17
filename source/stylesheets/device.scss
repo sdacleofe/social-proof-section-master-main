@@ -1,0 +1,41 @@
+@import 'breakpoint';
+
+@media (max-width: $layout-breakpoint-medium) {
+    main {
+        gap: unset !important;
+    }
+
+    section:last-child {
+        display: block !important;
+
+        .testimonial {
+            min-height: 200px !important;
+
+            .content {
+                margin-top: 20px !important;
+            }
+        }
+    }
+
+    .rating:nth-child(1) {
+        display: block !important;
+    }
+    .rating:nth-child(2) {
+        display: block !important;
+    }
+    .rating:nth-child(3) {
+        display: block !important;
+    }
+}
+
+@media (max-width: $layout-breakpoint-small-medium) {
+    section:first-child {
+        flex-direction: column !important;
+        
+        .content {
+            width: 100% !important;
+            text-align: center !important;
+        }
+        
+    }
+}

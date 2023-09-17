@@ -1,0 +1,228 @@
+@import 'colors';
+@import 'typography';
+
+body {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    font-family: $font-league-spartan-family;
+    font-size: $font-size;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+
+    .bg-pattern-top {
+        position: absolute;
+        background-image: url('/social-proof-section-master/images/bg-pattern-top-desktop.svg');
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 362px;
+        top: 0;
+        left: 0;
+    }
+
+    .bg-pattern-bottom {
+        position: absolute;
+        background-image: url('/social-proof-section-master/images/bg-pattern-bottom-desktop.svg');
+        background-repeat: no-repeat;
+        width: 1085px;
+        height: 637px;
+        right: 0;
+        bottom: 0;
+    }
+
+    main {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        max-width: 900px;
+        margin: 90px;
+        gap: 60px;
+
+
+        section:first-child {
+            display: flex;
+            flex-direction: row;
+            color: $very-dark-magenta;
+
+            .heading {
+                flex: 1;
+
+                .content {
+                    width: 80%;
+
+                    h1 {
+                        margin-top: 0;
+                        font-size: $font-size * 3;
+                        font-weight: nth($font-league-spartan-weights, 3 );
+                    }
+
+                    p {
+                        line-height: 150%;
+                    }
+                }
+            }
+            .rating-content {
+                flex: 1;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .rating:nth-child(1) {
+                    display: flex;
+                    justify-content: baseline;
+                }
+                .rating:nth-child(2) {
+                    display: flex;
+                    justify-content: center;
+                }
+                .rating:nth-child(3) {
+                    display: flex;
+                    justify-content: end;
+                }
+
+                .rating {
+                    padding: 7px;
+
+                    .box {
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        background-color: $light-grayish-magenta;
+                        border-radius: 5px;
+                        padding: 15px;
+
+
+                        .star {
+                            background-image: url('/social-proof-section-master/images/icon-star.svg');
+                            height: 16px;
+                            width: 17px;
+                        }
+
+                        p {
+                            text-align: center;
+                            margin: 0;
+                            width: 200px;
+                            font-weight: nth($font-league-spartan-weights, 3 );
+                        }
+                    }
+                }
+            }
+        }
+
+        section:last-child {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: row;
+            gap: 20px;
+
+            .testimonial {
+                display: flex;
+
+                .content {
+                    padding: 30px;
+                    border-radius: 5px;
+                    background-color: $very-dark-magenta;
+                    justify-content: center;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    
+                    .buyer-profile {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        gap: 20px;
+
+                        .photo-colton {
+                            background-image: url('/social-proof-section-master/images/image-colton.jpg');
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 100%;
+                        }
+
+                        .photo-irene {
+                            background-image: url('/social-proof-section-master/images/image-irene.jpg');
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 100%;
+                        }
+
+                        
+                        .photo-anne {
+                            background-image: url('/social-proof-section-master/images/image-anne.jpg');
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 100%;
+                        }
+
+                        .info {
+
+                            p {
+                                margin: 2px 0;
+                            }
+
+                            .name {
+                                color: $white;
+                            }
+
+                            .verified-buyer {
+                                color: $soft-pink;
+                            }
+                        }
+                    }
+
+                    .comment {
+                        color: $white;
+                        line-height: 140%;
+                    }
+                }
+            }
+
+            .testimonial:nth-child(1){
+                min-height: 100px;
+
+                .content {
+                    margin-top: 30px;
+                }
+            }
+            .testimonial:nth-child(2) {
+                min-height: 200px;
+
+                .content {
+                    margin-top: 60px;
+                }
+            }
+            .testimonial:nth-child(3){
+                min-height: 300px;
+                .content {
+                    margin-top: 90px;
+                }
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0;
+    
+        span {
+            $very-dark-magenta: hsl(300, 43%, 22%);
+            text-align: center;
+        }
+    }
+}

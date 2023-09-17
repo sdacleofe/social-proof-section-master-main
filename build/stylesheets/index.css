@@ -1,0 +1,191 @@
+body {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  font-family: "League Spartan", sans-serif;
+  font-size: 0.9375em;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+body .bg-pattern-top {
+  position: absolute;
+  background-image: url("/social-proof-section-master/images/bg-pattern-top-desktop.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 362px;
+  top: 0;
+  left: 0;
+}
+body .bg-pattern-bottom {
+  position: absolute;
+  background-image: url("/social-proof-section-master/images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat;
+  width: 1085px;
+  height: 637px;
+  right: 0;
+  bottom: 0;
+}
+body main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 90px;
+  gap: 60px;
+}
+body main section:first-child {
+  display: flex;
+  flex-direction: row;
+  color: hsl(300, 43%, 22%);
+}
+body main section:first-child .heading {
+  flex: 1;
+}
+body main section:first-child .heading .content {
+  width: 80%;
+}
+body main section:first-child .heading .content h1 {
+  margin-top: 0;
+  font-size: 2.8125em;
+  font-weight: 700;
+}
+body main section:first-child .heading .content p {
+  line-height: 150%;
+}
+body main section:first-child .rating-content {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body main section:first-child .rating-content .rating:nth-child(1) {
+  display: flex;
+  justify-content: baseline;
+}
+body main section:first-child .rating-content .rating:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+body main section:first-child .rating-content .rating:nth-child(3) {
+  display: flex;
+  justify-content: end;
+}
+body main section:first-child .rating-content .rating {
+  padding: 7px;
+}
+body main section:first-child .rating-content .rating .box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  padding: 15px;
+}
+body main section:first-child .rating-content .rating .box .star {
+  background-image: url("/social-proof-section-master/images/icon-star.svg");
+  height: 16px;
+  width: 17px;
+}
+body main section:first-child .rating-content .rating .box p {
+  text-align: center;
+  margin: 0;
+  width: 200px;
+  font-weight: 700;
+}
+body main section:last-child {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 20px;
+}
+body main section:last-child .testimonial {
+  display: flex;
+}
+body main section:last-child .testimonial .content {
+  padding: 30px;
+  border-radius: 5px;
+  background-color: hsl(300, 43%, 22%);
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body main section:last-child .testimonial .content .buyer-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+body main section:last-child .testimonial .content .buyer-profile .photo-colton {
+  background-image: url("/social-proof-section-master/images/image-colton.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+body main section:last-child .testimonial .content .buyer-profile .photo-irene {
+  background-image: url("/social-proof-section-master/images/image-irene.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+body main section:last-child .testimonial .content .buyer-profile .photo-anne {
+  background-image: url("/social-proof-section-master/images/image-anne.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+body main section:last-child .testimonial .content .buyer-profile .info p {
+  margin: 2px 0;
+}
+body main section:last-child .testimonial .content .buyer-profile .info .name {
+  color: hsl(0, 0%, 100%);
+}
+body main section:last-child .testimonial .content .buyer-profile .info .verified-buyer {
+  color: hsl(333, 80%, 67%);
+}
+body main section:last-child .testimonial .content .comment {
+  color: hsl(0, 0%, 100%);
+  line-height: 140%;
+}
+body main section:last-child .testimonial:nth-child(1) {
+  min-height: 100px;
+}
+body main section:last-child .testimonial:nth-child(1) .content {
+  margin-top: 30px;
+}
+body main section:last-child .testimonial:nth-child(2) {
+  min-height: 200px;
+}
+body main section:last-child .testimonial:nth-child(2) .content {
+  margin-top: 60px;
+}
+body main section:last-child .testimonial:nth-child(3) {
+  min-height: 300px;
+}
+body main section:last-child .testimonial:nth-child(3) .content {
+  margin-top: 90px;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+}
+body footer span {
+  text-align: center;
+}
+
+/*# sourceMappingURL=index.css.map */
